@@ -1,0 +1,19 @@
+<html>
+<head>
+
+</head>
+<body>
+{% for person in contacts %}
+<table>
+<tr>
+	<td>{{person.Name}}</td>
+	<td>{{person.Subject}}</td>
+	<td>{{person.Email}}</td>
+	<td>{{person.Phone}}</td>
+	<td>{{person.Message}}</td>
+
+</tr>
+</table>
+{% endfor %}
+</body>
+</html>
