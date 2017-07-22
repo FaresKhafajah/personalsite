@@ -20,7 +20,7 @@ def showcontact():
 	contactsTable.insert(entry)
 	print list(contactsTable.all())
 	return render_template("contactshow.html" , Name=Name  , Subject=Subject , Email=Email , Phone=Phone , Message=Message)
-@app.route("/19cf8cf68bccacb6b5d8b6c7a0d0ba268bca3ec870485ca47b995704f360bbe35432/d5h12c5nd4jmvn")
+@app.route("/05980172022001")
 def showAll():
 	contacts= db["contacts"]
 	allContacts= list(contacts.all())
